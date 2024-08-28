@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList, Status } from "./styles"
+import { HistoryContainer, HistoryList, Status } from './styles'
 
 export const History = () => {
   return (
@@ -21,7 +21,7 @@ export const History = () => {
               <td>15 minutos</td>
               <td>há 2 dias</td>
               <td>
-                <Status statusColor='green'>Concluído</Status>
+                <Status statusColor="green">Concluído</Status>
               </td>
             </tr>
             <tr>
@@ -29,7 +29,7 @@ export const History = () => {
               <td>15 minutos</td>
               <td>há 2 dias</td>
               <td>
-                <Status statusColor='yellow'>Em andamento</Status>
+                <Status statusColor="yellow">Em andamento</Status>
               </td>
             </tr>
             <tr>
